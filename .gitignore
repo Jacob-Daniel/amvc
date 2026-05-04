@@ -1,0 +1,97 @@
+# -------------------------
+
+# Dependencies
+
+# -------------------------
+
+node_modules/
+vendor/
+
+# -------------------------
+
+# Build outputs
+
+# -------------------------
+
+public/dist/
+public/front/dist/
+public/admin/dist/
+
+# Vite cache
+
+.vite/
+dist/
+
+# -------------------------
+
+# Environment / Secrets
+
+# -------------------------
+
+.env
+.env.*
+!.env.example
+
+# Your specific config (IMPORTANT)
+
+**/dbconfig.php
+**/config.php
+
+# -------------------------
+
+# Logs & runtime files
+
+# -------------------------
+
+storage/logs/*
+storage/cache/*
+storage/*.log
+
+# Keep structure but ignore contents
+
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+
+# -------------------------
+
+# Uploads / user-generated content
+
+# -------------------------
+
+public/uploads/
+public/graphics/uploads/
+
+# -------------------------
+
+# OS / Editor junk
+
+# -------------------------
+
+.DS_Store
+Thumbs.db
+
+# -------------------------
+
+# Misc
+
+# -------------------------
+
+*.swp
+*.swo
+*~
+
+# SFTP / deployment configs
+
+sftp-config.json
+
+# -------------------------
+
+# Composer / Node debug
+
+# -------------------------
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
